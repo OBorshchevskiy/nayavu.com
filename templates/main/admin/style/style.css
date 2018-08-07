@@ -1,0 +1,86 @@
+body, td {
+    color: #000000;
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+}
+
+input, select, textarea {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+}
+
+a:hover, a:link, a:visited, a:active {
+    color: #010101;
+    text-decoration: underline;
+}
+
+.title {
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+a.title:hover, a.title:link, a.title:visited, a.title:active {
+    color: #32394e;
+    font-family: helvetica;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img {
+    border: 0px;
+}
+
+.notice, .comment {
+    color: #808080;
+    font-size: 9px;
+}
+
+.important {
+    color: #ff0000;
+    vertical-align: top;
+}
+
+div.message_good {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #a9c557;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+div.message_bad {
+    color: #992a2a;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #e3c0c0;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+table.data_box {
+    border: 1px solid #c0c0c0;
+    background-color: #e8e8e8;
+}
+
+tr.data_box {
+    background-color: #dcdcdc;
+}
+
+tr.data_box_darker {
+    border: 1px solid #9e9e9e;
+    background-color: #c1c1c1;
+}
+
+td.data_box {
+    color: #000000;
+    font-weight: bold;
+}
+
+td.close_box {
+    border: 1px solid #898f97;
+    background-color: #e0e0e0;
+}

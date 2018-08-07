@@ -1,0 +1,10 @@
+﻿User-agent: * 
+Disallow: /ru/monitor_online_vk/
+Disallow: /forum/profile.php
+Disallow: /forum/userlist.php
+Disallow: /ru/friends/
+Disallow: /ru/compare/
+Disallow: /ru/avatar/
+Disallow: /ru/add_vk_messenger/
+Disallow: /ru/delete_vk_user/
+Disallow: /ru/friends_list/

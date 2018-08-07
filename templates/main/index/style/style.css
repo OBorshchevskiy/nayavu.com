@@ -1,0 +1,464 @@
+body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+}
+
+td {
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    color: #494e51;
+    line-height: 180%;
+}
+
+td.logo {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+tr.bg_form_id_or_name {
+    background-color: #b7c0cf;
+}
+
+img {
+    border: 0px;
+}
+
+input, select {
+    font-family: tahoma, verdana, arial;
+    font-size: 19px;
+    color: #2d333f;
+    padding: 1px;
+}
+
+select.num_in_page {
+    font-family: tahoma, verdana, arial;
+    font-size: 9px;
+    color: #2d333f;
+}
+
+select.stat_view {
+    font-family: tahoma, verdana, arial;
+    font-size: 11px;
+    color: #2d333f;
+}
+
+.select_user {
+    font-family: tahoma, verdana, arial;
+    font-size: 12px;
+    color: #2d333f;
+    padding: 1px;
+}
+
+textarea {
+    font-family: tahoma, verdana, arial;
+    font-size: 12px;
+    color: #2d333f;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: #666666;
+}
+
+a.friends_list:link, a.friends_list:visited, a.friends_list:active, a.friends_list:hover {
+    color: #7f848e;
+	font-size: 11px;
+	font-family: tahoma, verdana, arial;
+}
+
+a.arrow:link, a.arrow:visited, a.arrow:active {
+    color: #191919;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: tahoma, verdana, arial;
+	padding: 2px;
+}
+
+a.arrow:hover {
+    color: #191919;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: underline;
+	font-family: tahoma, verdana, arial;
+	background-color: #cccccc;
+	padding: 2px;
+}
+
+.title, a.title {
+    font-family: tahoma, verdana, arial;
+    color: #417cab;
+    font-size: 20px;
+}
+
+.font_small {
+    font-family: tahoma, verdana, arial;
+    font-size: 10px;
+    color: #868993;
+}
+
+.font_small_grey {
+    font-family: tahoma, verdana, arial;
+    font-size: 10px;
+    color: #9fa2ad;
+}
+
+div.message_good {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #a9c557;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+div.message_bad {
+    color: #992a2a;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #e3c0c0;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.important {
+    color: #ff0000;
+    vertical-align: top;
+}
+
+td.line_comment {
+    border-top: 1px dashed #c0c0c0;
+}
+
+table.user_online {
+    background-color: #a9c557;
+    border: 1px solid #bebebe;
+}
+
+table.user_offline {
+    background-color: #e3c0c0;
+    border: 1px solid #bebebe;
+}
+
+input.filter_date {
+    font-family: tahoma, verdana, arial;
+    font-size: 12px;
+    color: #2d333f;
+}
+
+table.data_box {
+    border: 1px solid #c0c0c0;
+    background-color: #dbdbdb;
+}
+
+tr.data_box_blue {
+    background-color: #c1c7d8;
+}
+
+td.data_box_green {
+    background-color: #a9c557;
+    border-right: 1px solid #cccccc;
+    font-family: tahoma, verdana, arial;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+td.data_box_dark {
+    background-color: #979daa;
+    border-right: 1px solid #cccccc;
+    font-family: tahoma, verdana, arial;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+td.time_day_date {
+    background-color: #c0c0c0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+td.time_day_date_not_line {
+    background-color: #c0c0c0;
+}
+
+td.time_day_date_session {
+    background-color: #b4baca;
+    border-bottom: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+}
+
+td.time_day_date_session_not_line {
+    background-color: #b4baca;
+    border-left: 1px solid #dbdbdb;
+}
+
+td.line_donate {
+    border-top: 1px dashed #c0c0c0;
+}
+
+td.line_blue {
+    background-color: #b6c2d8;
+}
+
+table.line_pay {
+    background-color: #b9cd7e;
+    border: 1px solid #9ead71;
+}
+
+.font_time_today {
+    font-family: tahoma, verdana, arial;
+    font-size: 11px;
+    color: #888888;
+}
+
+.font_session {
+    font-family: tahoma, verdana, arial;
+    font-size: 11px;
+    color: #888888;
+}
+
+p.title_online_vk {
+    background-color: #eaeaea;
+	font-family: tahoma, verdana, arial;
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+font.last_status_small {
+    font-family: tahoma, verdana, arial;
+    font-size: 10px;
+    color: #939393;
+}
+
+td.status_time_full {
+    font-family: tahoma, verdana, arial;
+    font-size: 10px;
+    color: #939393;
+	background-color: #C6C9D3;
+}
+
+td.status_day_week {
+    background-color: #b6bdc1;
+}
+
+td.status_time {
+    background-color: #b8cc61;
+}
+
+td.status_audio_text {
+    background-color: #cfd0d1;
+}
+
+font.monitor_online_vk_info {
+    font-size: 10px;
+	color: #9e9e9e;
+}
+
+font.monitor_online_vk_next {
+    font-size: 11px;
+	color: #9e9e9e;
+}
+
+font.friends_vk_next  {
+    font-size: 11px;
+	color: #9e9e9e;
+}
+
+font.monitor_online_vk_status_not_data {
+    font-size: 10px;
+	color: #9e9e9e;
+}
+
+font.monitor_online_vk_filter {
+    font-size: 10px;
+	color: #888888;
+}
+
+div.today_time_online {
+    padding-bottom: 9px;
+}
+
+.showbox_filter_2 {
+    cursor:pointer;
+	text-decoration: underline;
+	color: #888888;
+}
+
+.showbox_filter_4 {
+    cursor:pointer;
+	text-decoration: underline;
+	color: #888888;
+}
+
+.play-icon {
+    width: 18px;
+	height: 18px;
+    background: url('/templates/main/index/images/play.png');
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: middle;
+	background-repeat: no-repeat;
+}
+
+.spiffy{display:block}
+.spiffy *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#f1f1f1}
+.spiffy1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #f8f8f8;
+  border-right:1px solid #f8f8f8;
+  background:#f4f4f4}
+.spiffy2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #fdfdfd;
+  border-right:1px solid #fdfdfd;
+  background:#f3f3f3}
+.spiffy3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #f3f3f3;
+  border-right:1px solid #f3f3f3;}
+.spiffy4{
+  border-left:1px solid #f8f8f8;
+  border-right:1px solid #f8f8f8}
+.spiffy5{
+  border-left:1px solid #f4f4f4;
+  border-right:1px solid #f4f4f4}
+.spiffyfg{
+  background:#f1f1f1}
+  
+.item {
+  width: 148px;
+  height: 160px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  margin: 0 auto;
+}
+
+.friends_main_header_workspace {
+    background-color: #979daa;
+	font-weight: bold;
+	font-family: tahoma, verdana, arial;
+	font-size: 11px;
+}
+
+.friends_main_add {
+    background-color: #a9c557;
+	font-weight: bold;
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+}
+
+.friends_main_delete {
+    background-color: #e3c0c0;
+	font-weight: bold;
+	font-family: tahoma, verdana, arial;
+	font-size: 12px;
+}
+
+.friends_list_grey {
+    background-color: #cfd0d1;
+    font-size: 11px;
+	color: #686e72;
+}
+
+table.friends_list_top {
+    background-color: #dbdbdb;
+	border: 1px solid #c0c0c0;
+	
+}
+
+table.friends_list {
+    background-color: #dbdbdb;
+	
+}
+
+table.data_friends_full_list{
+    background-color: #eaeaea;
+	border: 1px solid #e0e0e0;
+}
+
+td.data_friends_id{
+    background-color: #c6c9d3;
+	font-size: 11px;
+}
+
+.search_style_friends {
+	color: #8C9399;
+    font-family: tahoma, verdana, arial;
+}
+
+.friends_list_view_time_top {
+    background-color: #b6bdc1;
+	border-top: 3px solid #abb1b5;
+}
+
+.friends_list_view_time {
+    background-color: #b6bdc1;
+	font-weight: bold;
+	font-family: tahoma, verdana, arial;
+}
+
+.friends_end_line {
+    border-top: 3px solid #abb1b5;
+}
+
+.friends_add_style {
+    background-color: #97b1c5;
+	border: 1px solid #7498b4;
+	color: #ffffff;
+	font-size: 7px;
+	font-weight: bold;
+}
+
+.friends_delete_style {
+    background-color: #de4b43;
+	border: 1px solid #ca332b;
+	color: #ffffff;
+	font-size: 7px;
+	font-weight: bold;
+}
+
+a.friends_add_delete:link, a.friends_add_delete:visited, a.friends_add_delete:active, a.friends_add_delete:hover {
+	color: #ffffff;
+	font-size: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.status_add_style {
+    background-color: #f17a2a;
+	border: 1px solid #c0682e;
+	color: #ffffff;
+	font-size: 7px;
+	font-weight: bold;
+}
+
+a.status_add:link, a.status_add:visited, a.status_add:active, a.status_add:hover {
+	color: #ffffff;
+	font-size: 7px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.background_monitoring_table {
+    background-color: #e1e1e1;
+	font-size: 12px;
+	color: #707577;
+}
+
+.friends_list_all {
+    background-color: #c6c9d3;
+	border-top: 2px solid #a2a5ad;
+}
